@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(77, 0, 0);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: rgb(31, 1, 1);
+    text-decoration: underline;
+}
+
+.pressedKey {
+    font-size: 16rem;
+    font-weight: 700;
+    color: chocolate;
+    margin-bottom: 30px;
+}
+
+.key {
+    font-size: 1.5em;
+    font-weight: 500;
+    background-color: aliceblue;
+    border: 1px solid chocolate;
+    border-radius: 5px;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    min-width: 150px;
+    position: relative;
+}
+
+.key small {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    color: #555;
+}
+
+@media only screen and (max-width: 1850px) {
+    .pressedKey {
+        font-size: 14em;
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .pressedKey {
+        font-size: 12em;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .pressedKey {
+        font-size: 10em;
+    }
+}
+
+
+@media only screen and (max-width: 1196px) {
+    .pressedKey {
+        font-size: 8em;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .pressedKey {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .pressedKey {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .pressedKey {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    .pressedKey {
+        font-size: 5em;
+    }
+
+    .key {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .pressedKey {
+        font-size: 3em;
+    }
+}
