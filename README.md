@@ -15,7 +15,7 @@ It's a great beginner project for understanding keyboard events, event objects, 
 
 ## 🚀 Live Demo
 
-👉 [**Try it Live**](https://your-username.github.io/key-code-detector)
+👉 [**Try it Live**](https://nirdhum.github.io/keylogger/)
 
 ## 🛠️ Technologies Used
 
